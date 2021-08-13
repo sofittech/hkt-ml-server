@@ -13,5 +13,3 @@ python-dateutil==2.8.1
 Werkzeug==0.15.6
 wrapt==1.12.1
 xgboost==0.90
-warnings
-pickle
