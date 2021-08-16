@@ -54,4 +54,4 @@ def get_prediction():
     return jsonify({'Sales': round(val[0])})
 
 if __name__ == "__main__":
-  app.run(host="127.0.0.1", port=5012,debug = True)
+  app.run(host="0.0.0.0", port=5012,debug = True)
