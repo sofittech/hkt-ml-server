@@ -125,7 +125,7 @@ def get_prediction():
 
 
         
-    print(salesData)
+#     print(salesData)
 
 
 
