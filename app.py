@@ -55,6 +55,7 @@ def hello():
 @app.route("/get_prediction", methods=['POST','OPTIONS'])
 @cross_origin()
 def get_prediction():
+    date_list = []
     if not request.json:
         abort(400)
     payload  = request.json
